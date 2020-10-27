@@ -1,6 +1,6 @@
-from builder_pattern.a_computer_builder import AComputerBuilder
-from builder_pattern.b_computer_builder import BComputerBuilder
-from builder_pattern.director import Director
+from a_computer_builder import AComputerBuilder
+from b_computer_builder import BComputerBuilder
+from director import Director
 
 builder_1 = AComputerBuilder()
 d = Director(builder_1)

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from builder_pattern.abc_computer_builder import AbcComputerBuilder
+from abc_computer_builder import AbcComputerBuilder
 
 
 @dataclass

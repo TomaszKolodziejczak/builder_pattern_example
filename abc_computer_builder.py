@@ -2,7 +2,7 @@ from abc import ABC
 from abc import abstractmethod
 from dataclasses import dataclass
 
-from builder_pattern.computer import Computer
+from computer import Computer
 
 
 @dataclass
